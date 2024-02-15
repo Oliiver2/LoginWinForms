@@ -19,7 +19,9 @@ namespace LoginWinForms
 
         private void buttonRegistrar_Click(object sender, EventArgs e)
         {
+            Usuario nuevoUsuario = new Usuario(fieldUsuario.Text, fieldPasswd.Text, fieldCorreo.Text);
 
+            Usuario.usuarios.Add(nuevoUsuario);
         }
     }
 }
