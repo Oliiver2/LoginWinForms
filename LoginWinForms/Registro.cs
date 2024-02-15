@@ -16,5 +16,10 @@ namespace LoginWinForms
         {
             InitializeComponent();
         }
+
+        private void buttonRegistrar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
