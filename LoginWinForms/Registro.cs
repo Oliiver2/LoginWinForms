@@ -22,6 +22,10 @@ namespace LoginWinForms
             Usuario nuevoUsuario = new Usuario(fieldUsuario.Text, fieldPasswd.Text, fieldCorreo.Text);
 
             Usuario.usuarios.Add(nuevoUsuario);
+
+
+            Login login = new Login();
+            login.ShowDialog();
         }
     }
 }
