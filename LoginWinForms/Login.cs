@@ -24,23 +24,33 @@ namespace LoginWinForms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string nombreIngresado = textBox2.Text;
+            // Obtener el nombre de usuario y la contraseña ingresados
+            string nombreIngresado = fieldUsuarioLogin.Text;
+            string passwordIngresado = textBox2.Text;
 
-            // Buscar el nombre de usuario en la lista
-            Usuario usuarioEncontrado = Usuario.usuarios.FirstOrDefault(usuario => usuario.getNombre().Equals(nombreIngresado));
+            // Bandera para verificar si se encontró el usuario
+            bool usuarioEncontrado = false;
 
-            if (usuarioEncontrado != null)
+            // Buscar el usuario en la lista
+            foreach (Usuario usuario in Usuario.usuarios)
+            {
+                if (usuario.nombre.Equals(nombreIngresado) && usuario.passwd.Equals(passwordIngresado))
+                {
+                    // Usuario encontrado y las credenciales son correctas
+                    usuarioEncontrado = true;
+                    break; // Salir del bucle una vez que se encuentra el usuario
+                }
+            }
+
+            // Verificar si se encontró el usuario y las credenciales son correctas
+            if (usuarioEncontrado)
             {
                 MessageBox.Show($"¡Hola, {nombreIngresado}!", "Bienvenido");
-
-                // Puedes realizar otras acciones después de encontrar al usuario, si es necesario.
-
-                // Por ejemplo, cambiar el texto de textBox2 a "hola"
-                textBox2.Text = "hola";
+                this.Close();
             }
             else
             {
-                MessageBox.Show("Usuario no encontrado", "Error");
+                MessageBox.Show("Credenciales incorrectas", "Error");
             }
         }
 

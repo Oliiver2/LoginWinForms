@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -8,9 +9,9 @@ namespace LoginWinForms
 {
     class Usuario
     {
-        String nombre;
-        String correo;
-        String passwd;
+        public String nombre;
+        public String correo;
+        public String passwd;
 
         public static List<Usuario> usuarios = new List<Usuario>();
 
@@ -50,5 +51,7 @@ namespace LoginWinForms
         {
             this.correo = correo;
         }
+
+        
     }
 }
