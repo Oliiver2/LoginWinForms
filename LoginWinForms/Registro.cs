@@ -23,9 +23,28 @@ namespace LoginWinForms
 
             Usuario.usuarios.Add(nuevoUsuario);
 
+            fieldUsuario.ResetText();
+            fieldPasswd.ResetText();
+            fieldPasswd2.ResetText();
+            fieldCorreo.ResetText();
 
             Login login = new Login();
             login.ShowDialog();
+        }
+
+        private void fieldUsuario_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void fieldCorreo_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void fieldPasswd_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

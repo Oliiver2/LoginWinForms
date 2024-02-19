@@ -82,6 +82,7 @@ namespace LoginWinForms
             this.fieldUsuario.Name = "fieldUsuario";
             this.fieldUsuario.Size = new System.Drawing.Size(198, 22);
             this.fieldUsuario.TabIndex = 4;
+            this.fieldUsuario.TextChanged += new System.EventHandler(this.fieldUsuario_TextChanged);
             // 
             // fieldCorreo
             // 
@@ -89,18 +90,22 @@ namespace LoginWinForms
             this.fieldCorreo.Name = "fieldCorreo";
             this.fieldCorreo.Size = new System.Drawing.Size(198, 22);
             this.fieldCorreo.TabIndex = 5;
+            this.fieldCorreo.TextChanged += new System.EventHandler(this.fieldCorreo_TextChanged);
             // 
             // fieldPasswd
             // 
             this.fieldPasswd.Location = new System.Drawing.Point(363, 189);
             this.fieldPasswd.Name = "fieldPasswd";
+            this.fieldPasswd.PasswordChar = '*';
             this.fieldPasswd.Size = new System.Drawing.Size(198, 22);
             this.fieldPasswd.TabIndex = 6;
+            this.fieldPasswd.TextChanged += new System.EventHandler(this.fieldPasswd_TextChanged);
             // 
             // fieldPasswd2
             // 
             this.fieldPasswd2.Location = new System.Drawing.Point(363, 226);
             this.fieldPasswd2.Name = "fieldPasswd2";
+            this.fieldPasswd2.PasswordChar = '*';
             this.fieldPasswd2.Size = new System.Drawing.Size(198, 22);
             this.fieldPasswd2.TabIndex = 7;
             // 
