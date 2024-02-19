@@ -1,0 +1,11 @@
+C:\Users\carlo\Desktop\Login\LoginWinForms\LoginWinForms\bin\Debug\LoginWinForms.exe.config
+C:\Users\carlo\Desktop\Login\LoginWinForms\LoginWinForms\bin\Debug\LoginWinForms.exe
+C:\Users\carlo\Desktop\Login\LoginWinForms\LoginWinForms\bin\Debug\LoginWinForms.pdb
+C:\Users\carlo\Desktop\Login\LoginWinForms\LoginWinForms\obj\Debug\LoginWinForms.csproj.AssemblyReference.cache
+C:\Users\carlo\Desktop\Login\LoginWinForms\LoginWinForms\obj\Debug\LoginWinForms.Login.resources
+C:\Users\carlo\Desktop\Login\LoginWinForms\LoginWinForms\obj\Debug\LoginWinForms.Properties.Resources.resources
+C:\Users\carlo\Desktop\Login\LoginWinForms\LoginWinForms\obj\Debug\LoginWinForms.Registro.resources
+C:\Users\carlo\Desktop\Login\LoginWinForms\LoginWinForms\obj\Debug\LoginWinForms.csproj.GenerateResource.cache
+C:\Users\carlo\Desktop\Login\LoginWinForms\LoginWinForms\obj\Debug\LoginWinForms.csproj.CoreCompileInputs.cache
+C:\Users\carlo\Desktop\Login\LoginWinForms\LoginWinForms\obj\Debug\LoginWinForms.exe
+C:\Users\carlo\Desktop\Login\LoginWinForms\LoginWinForms\obj\Debug\LoginWinForms.pdb

@@ -27,5 +27,10 @@ namespace LoginWinForms
             Login login = new Login();
             login.ShowDialog();
         }
+
+        private void fieldUsuario_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
